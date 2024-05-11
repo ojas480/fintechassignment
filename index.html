@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>10-K Filings Analysis</title>
+</head>
+<body>
+    <h1>Enter a Company Ticker</h1>
+    <form method="post">
+        <input type="text" name="ticker" required>
+        <button type="submit">Analyze</button>
+    </form>
+    {% if plot_url %}
+        <h2>Results for {{ request.form['ticker'] }}</h2>
+        <img src="data:image/png;base64,{{ plot_url }}">
+    {% endif %}
+</body>
+</html>
