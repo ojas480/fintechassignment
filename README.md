@@ -21,3 +21,33 @@ Technologies Used
 Installation
 
 To get this project up and running on your local machine, follow these steps:
+
+Clone this repository:
+
+bash
+
+git clone https://github.com/yourusername/SEC-Filings-Analyzer.git
+
+Navigate to the project directory:
+
+bash
+
+cd SEC-Filings-Analyzer
+
+Install required Python packages:
+
+bash
+
+pip install -r requirements.txt
+
+Start the Flask application:
+
+bash
+
+    python app.py
+
+    Open a web browser and go to http://127.0.0.1:5000/ to start using the application.
+
+Usage
+
+Enter a company ticker into the input field and submit the form. The application will process the latest 29 years of 10-K filings, analyze them, and present a plot summarizing the key financial trends.
