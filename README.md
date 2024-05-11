@@ -1,4 +1,4 @@
-# fintechassignment
+# SEC 10-K Filings Analyzer
 
 Overview
 
