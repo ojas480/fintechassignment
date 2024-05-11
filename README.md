@@ -23,9 +23,13 @@ Installation
 To get this project up and running on your local machine, follow these steps:
 
 Clone this repository: git clone https://github.com/yourusername/SEC-Filings-Analyzer.git
+
 Navigate to the project directory: cd SEC-Filings-Analyzer
+
 Install required Python packages: pip install -r requirements.txt
+
 Start the Flask application: python app.py
+
 
 Usage
 
